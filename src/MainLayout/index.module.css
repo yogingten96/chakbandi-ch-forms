@@ -1,0 +1,8 @@
+.layoutContainer {
+  width: 100%;
+  max-width: 600px;
+  /* background-color: gray; */
+  height: 100vh;
+  margin: auto;
+  padding: 15px;
+}
