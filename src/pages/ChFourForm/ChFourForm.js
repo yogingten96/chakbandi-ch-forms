@@ -6,6 +6,7 @@ import InputFields from "../../components/InputFields/InputFields";
 import { form4Fields } from "../../utils/constants";
 import { form4initialState, formFourReducer } from "./formFourReducer";
 import { useReducer } from "react";
+import { Button } from "@mui/material";
 
 const ChFourForm = () => {
   const [state, dispatch] = useReducer(formFourReducer, form4initialState);
@@ -96,6 +97,10 @@ const ChFourForm = () => {
             </div>
           );
         })}
+      </div>
+
+      <div>
+        <Button>Submit</Button>
       </div>
     </div>
   );

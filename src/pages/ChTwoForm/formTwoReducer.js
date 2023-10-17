@@ -40,6 +40,7 @@ export const form2AinitialState = {
 export const formTwoReducer = (state, action) => {
   switch (action.type) {
     case "field": {
+      console.log("PAyload", action);
       return {
         ...state,
         [action.fieldName]: action.payload,
